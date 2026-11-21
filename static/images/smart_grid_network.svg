@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+  <!-- Dark Background Panel -->
+  <rect width="900" height="600" rx="12" fill="#090d16" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Diagram Header -->
+  <text x="450" y="45" font-family="'Consolas', 'Courier New', monospace" font-size="18" font-weight="bold" fill="#38bdf8" text-anchor="middle">INTELLIGENT SMART GRID: MULTI-TIMESCALE ENERGY ARCHITECTURE</text>
+  <text x="450" y="70" font-family="sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Real-time balancing of variable generation, battery storage, and dynamic load</text>
+
+  <!-- Central Digital Smart Substation / AI Dispatch Hub -->
+  <circle cx="450" cy="300" r="65" fill="#111827" stroke="#38bdf8" stroke-width="3" />
+  <circle cx="450" cy="300" r="50" fill="#0c1a30" stroke="#10b981" stroke-width="1.5" stroke-dasharray="6 4" />
+  <text x="450" y="295" font-family="'Consolas', monospace" font-size="12" font-weight="bold" fill="#38bdf8" text-anchor="middle">CENTRAL AI</text>
+  <text x="450" y="312" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#10b981" text-anchor="middle">DISPATCH HUB</text>
+
+  <!-- Node 1: Solar Farm (Top Left) -->
+  <g transform="translate(140, 140)">
+    <circle cx="0" cy="0" r="45" fill="#111827" stroke="#f59e0b" stroke-width="2" />
+    <text x="0" y="-8" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#f59e0b" text-anchor="middle">SOLAR FARM</text>
+    <text x="0" y="10" font-family="sans-serif" font-size="9" fill="#cbd5e1" text-anchor="middle">330 MW Peak</text>
+    <line x1="35" y1="25" x2="250" y2="120" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="6 4" />
+  </g>
+
+  <!-- Node 2: Offshore Wind (Top Right) -->
+  <g transform="translate(760, 140)">
+    <circle cx="0" cy="0" r="45" fill="#111827" stroke="#38bdf8" stroke-width="2" />
+    <text x="0" y="-8" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#38bdf8" text-anchor="middle">WIND FLEET</text>
+    <text x="0" y="10" font-family="sans-serif" font-size="9" fill="#cbd5e1" text-anchor="middle">360 MW Rated</text>
+    <line x1="-35" y1="25" x2="-250" y2="120" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="6 4" />
+  </g>
+
+  <!-- Node 3: Battery Energy Storage System (BESS) (Left) -->
+  <g transform="translate(110, 320)">
+    <circle cx="0" cy="0" r="48" fill="#111827" stroke="#10b981" stroke-width="2" />
+    <text x="0" y="-10" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#10b981" text-anchor="middle">BESS STORAGE</text>
+    <text x="0" y="8" font-family="sans-serif" font-size="9" fill="#cbd5e1" text-anchor="middle">1.2 GWh / 300 MW</text>
+    <text x="0" y="24" font-family="'Consolas', monospace" font-size="8" fill="#34d399" text-anchor="middle">η_rt = 88.4%</text>
+    <line x1="48" y1="0" x2="275" y2="-15" stroke="#10b981" stroke-width="3" />
+  </g>
+
+  <!-- Node 4: Green Hydrogen Electrolyzer (Right) -->
+  <g transform="translate(790, 320)">
+    <circle cx="0" cy="0" r="48" fill="#111827" stroke="#a855f7" stroke-width="2" />
+    <text x="0" y="-10" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#a855f7" text-anchor="middle">GREEN H2</text>
+    <text x="0" y="8" font-family="sans-serif" font-size="9" fill="#cbd5e1" text-anchor="middle">Electrolyzer</text>
+    <text x="0" y="24" font-family="sans-serif" font-size="8" fill="#d8b4fe" text-anchor="middle">Seasonal Buffer</text>
+    <line x1="-48" y1="0" x2="-275" y2="-15" stroke="#a855f7" stroke-width="2.5" stroke-dasharray="6 4" />
+  </g>
+
+  <!-- Node 5: Modern Eco-City Load & V2G (Bottom Center) -->
+  <g transform="translate(450, 480)">
+    <circle cx="0" cy="0" r="50" fill="#111827" stroke="#f43f5e" stroke-width="2" />
+    <text x="0" y="-10" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#f43f5e" text-anchor="middle">REGIONAL DEMAND</text>
+    <text x="0" y="8" font-family="sans-serif" font-size="9" fill="#cbd5e1" text-anchor="middle">Peak: 680 MW</text>
+    <text x="0" y="24" font-family="'Consolas', monospace" font-size="8" fill="#fb7185" text-anchor="middle">V2G EV Fleet Connected</text>
+    <line x1="0" y1="-50" x2="0" y2="-115" stroke="#f43f5e" stroke-width="3" />
+  </g>
+
+  <!-- Active Telemetry Status Banner -->
+  <rect x="180" y="540" width="540" height="42" rx="6" fill="#111827" stroke="#1e293b" />
+  <text x="450" y="565" font-family="'Consolas', monospace" font-size="12" font-weight="bold" fill="#10b981" text-anchor="middle">REAL-TIME GRID STATUS: BALANCED | FREQUENCY: 50.00 Hz | COVERAGE: 99.5%</text>
+</svg>

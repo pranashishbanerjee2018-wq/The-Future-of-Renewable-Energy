@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Future of Renewable Energy — Powering a Sustainable Tomorrow</title>
+  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%230284c7'/><polygon points='50,15 75,40 58,40 68,85 30,50 46,50' fill='%2310b981'/></svg>">
+</head>
+<body>
+
+  <!-- APP CONTAINER -->
+  <div id="app-container">
+
+    <!-- TOP STATUS & NAVIGATION BAR -->
+    <header id="top-header">
+      <div class="brand-section">
+        <div class="energy-pulse-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-titles">
+          <h1>THE FUTURE OF RENEWABLE ENERGY</h1>
+          <p>CLEAN ENERGY SYSTEMS RESEARCH GROUP • ACADEMIC PRESENTATION</p>
+        </div>
+      </div>
+
+      <!-- Center Scene Indicator -->
+      <div id="current-scene-banner">
+        <span class="scene-counter" id="banner-scene-counter">SCENE 1 OF 7</span>
+        <span class="scene-name" id="banner-scene-title">THE ENERGY CHALLENGE</span>
+      </div>
+
+      <!-- Right Utility Buttons -->
+      <div class="utility-controls">
+        <button id="btn-open-matlab" class="btn-util">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-4 4"/></svg>
+          MATLAB Results
+        </button>
+        <button id="toggle-subtitles" class="btn-util active">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><line x1="7" y1="15" x2="11" y2="15"/><line x1="13" y1="15" x2="17" y2="15"/><line x1="7" y1="11" x2="17" y2="11"/></svg>
+          Subtitles
+        </button>
+        <button id="toggle-sound" class="btn-util active">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>
+          Audio
+        </button>
+        <button id="btn-toggle-diagnostics" class="btn-util">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          Diagnostics
+        </button>
+        <button id="toggle-fullscreen" class="btn-util">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- MAIN STAGE (16:9 Cinema Viewport) -->
+    <main id="main-stage">
+      <!-- Background Lab SVG -->
+      <img id="lab-environment-bg" src="static/images/lab_background.svg" alt="Clean Energy Research Laboratory">
+
+      <!-- Central Scientific Hologram / Stage Visualizer -->
+      <div id="central-hologram-display">
+        <div class="hologram-card">
+          <div class="holo-header">
+            <span class="holo-title" id="holo-title">GLOBAL ENERGY METRICS &amp; CARBON PROFILE</span>
+            <span class="holo-status">SIMULATION: SYNCHRONIZED</span>
+          </div>
+          <div class="holo-viewport">
+            <img id="holo-media-img" src="static/images/demand_vs_generation_balance.png" alt="Scientific Visualizer">
+          </div>
+          <div class="holo-footer" id="holo-caption">
+            Surging electricity demand vs. 420+ ppm atmospheric CO2 trajectory
+          </div>
+        </div>
+      </div>
+
+      <!-- CHARACTER 1: DR. SEBASTIAN CLARKE (Left) -->
+      <div id="char-sebastian-wrapper" class="character-wrapper">
+        <div class="speaker-badge">
+          <div class="badge-name">Dr. Sebastian Clarke</div>
+          <div class="badge-role">Senior Renewable Energy Scientist</div>
+        </div>
+
+        <svg viewBox="0 0 500 900" width="100%" height="100%" class="char-svg-host" id="char-sebastian-svg">
+          <defs>
+            <linearGradient id="suitGradSeb" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#2d3748" />
+              <stop offset="50%" stop-color="#1a202c" />
+              <stop offset="100%" stop-color="#111827" />
+            </linearGradient>
+            <linearGradient id="skinGradSeb" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#fbd38d" />
+              <stop offset="100%" stop-color="#ed8936" />
+            </linearGradient>
+            <linearGradient id="hairGradSeb" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#3b2b1a" />
+              <stop offset="100%" stop-color="#1e140a" />
+            </linearGradient>
+            <linearGradient id="tieGradSeb" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#0284c7" />
+              <stop offset="100%" stop-color="#0369a1" />
+            </linearGradient>
+          </defs>
+
+          <g id="sebastian-root">
+            <ellipse cx="250" cy="870" rx="145" ry="25" fill="#000000" opacity="0.45" />
+
+            <!-- Legs & Charcoal Trousers -->
+            <g id="sebastian-lower-body">
+              <path d="M 175 580 L 188 850 L 228 850 L 240 580 Z" fill="#1a202c" />
+              <path d="M 260 580 L 272 850 L 312 850 L 325 580 Z" fill="#171923" />
+              <path d="M 178 845 L 232 845 L 238 865 L 172 865 Z" fill="#0f1117" />
+              <path d="M 268 845 L 322 845 L 328 865 L 262 865 Z" fill="#0f1117" />
+            </g>
+
+            <!-- Torso & Suit -->
+            <g id="sebastian-torso">
+              <polygon points="215,300 250,420 285,300 250,330" fill="#f8fafc" />
+              <polygon points="244,330 256,330 258,450 250,470 242,450" fill="url(#tieGradSeb)" />
+              <path d="M 160 300 Q 140 440 155 580 L 345 580 Q 360 440 340 300 Q 250 280 160 300 Z" fill="url(#suitGradSeb)" stroke="#374151" stroke-width="1.5" />
+              <polygon points="160,300 220,440 240,440 195,300" fill="#2d3748" />
+              <polygon points="340,300 280,440 260,440 305,300" fill="#2d3748" />
+
+              <!-- Senior Scientist Badge -->
+              <rect x="290" y="380" width="32" height="46" rx="3" fill="#ffffff" opacity="0.9" stroke="#94a3b8" stroke-width="1" />
+              <rect x="294" y="385" width="24" height="15" fill="#0284c7" />
+              <line x1="294" y1="406" x2="318" y2="406" stroke="#0f172a" stroke-width="2" />
+              <line x1="294" y1="412" x2="312" y2="412" stroke="#64748b" stroke-width="1.5" />
+            </g>
+
+            <!-- Arms & Gestures -->
+            <g id="sebastian-arms">
+              <g id="sebastian-left-arm-group" class="arm-gesture">
+                <path id="sebastian-left-arm" d="M 160 310 Q 120 420 135 510 Q 145 535 175 525" fill="none" stroke="#2d3748" stroke-width="42" stroke-linecap="round" />
+                <g id="sebastian-left-hand" transform="translate(170, 520)">
+                  <circle cx="0" cy="0" r="15" fill="url(#skinGradSeb)" />
+                  <path d="M 0 -8 C 10 -15, 18 -6, 10 5" fill="none" stroke="url(#skinGradSeb)" stroke-width="5" stroke-linecap="round" />
+                </g>
+              </g>
+
+              <g id="sebastian-right-arm-group" class="arm-gesture">
+                <path id="sebastian-right-arm" d="M 340 310 Q 380 420 365 505 Q 345 540 315 540" fill="none" stroke="#2d3748" stroke-width="42" stroke-linecap="round" />
+                <g id="sebastian-right-hand" transform="translate(315, 540)">
+                  <circle cx="0" cy="0" r="15" fill="url(#skinGradSeb)" />
+                  <path d="M 5 -8 C 16 -18, 24 -6, 14 5" fill="none" stroke="url(#skinGradSeb)" stroke-width="5" stroke-linecap="round" />
+                </g>
+              </g>
+            </g>
+
+            <!-- Head Group -->
+            <g id="sebastian-head-group" class="head-container">
+              <rect x="232" y="240" width="36" height="50" rx="6" fill="url(#skinGradSeb)" />
+              <path d="M 200 160 C 200 80, 300 80, 300 160 C 300 240, 280 265, 250 265 C 220 265, 200 240, 200 160 Z" fill="url(#skinGradSeb)" />
+              <ellipse cx="196" cy="170" rx="8" ry="16" fill="url(#skinGradSeb)" />
+              <ellipse cx="304" cy="170" rx="8" ry="16" fill="url(#skinGradSeb)" />
+
+              <!-- Hair -->
+              <path d="M 194 150 C 190 90, 230 65, 250 65 C 275 65, 310 85, 306 150 C 298 120, 280 110, 250 110 C 220 110, 202 125, 194 150 Z" fill="url(#hairGradSeb)" />
+              <path d="M 194 135 C 190 165, 205 165, 205 145 Z" fill="url(#hairGradSeb)" />
+              <path d="M 306 135 C 310 165, 295 165, 295 145 Z" fill="url(#hairGradSeb)" />
+
+              <!-- Eyebrows -->
+              <g id="sebastian-eyebrows" class="eyebrows">
+                <path d="M 215 145 Q 230 140 242 144" fill="none" stroke="#261b11" stroke-width="4.5" stroke-linecap="round" />
+                <path d="M 258 144 Q 270 140 285 145" fill="none" stroke="#261b11" stroke-width="4.5" stroke-linecap="round" />
+              </g>
+
+              <!-- Eyes & Blinking -->
+              <g id="sebastian-eyes" class="eyes-container">
+                <g id="sebastian-eye-left">
+                  <ellipse cx="230" cy="160" rx="9" ry="6" fill="#ffffff" />
+                  <circle cx="231" cy="160" r="4.2" fill="#2d1d11" />
+                  <circle cx="232" cy="158" r="1.3" fill="#ffffff" />
+                  <path class="eye-lid" d="M 221 160 Q 230 152 239 160" fill="none" stroke="#2d2a29" stroke-width="2" />
+                </g>
+                <g id="sebastian-eye-right">
+                  <ellipse cx="270" cy="160" rx="9" ry="6" fill="#ffffff" />
+                  <circle cx="269" cy="160" r="4.2" fill="#2d1d11" />
+                  <circle cx="270" cy="158" r="1.3" fill="#ffffff" />
+                  <path class="eye-lid" d="M 261 160 Q 270 152 279 160" fill="none" stroke="#2d2a29" stroke-width="2" />
+                </g>
+              </g>
+
+              <path d="M 250 158 L 246 185 L 254 186" fill="none" stroke="#c05621" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+              <!-- 5 Visemes -->
+              <g id="sebastian-mouth" class="mouth-container">
+                <g id="sebastian-viseme-rest" class="viseme" style="display: inline;">
+                  <path d="M 238 214 Q 250 216 262 214" fill="none" stroke="#9c4221" stroke-width="3.5" stroke-linecap="round" />
+                  <path d="M 242 216 Q 250 220 258 216" fill="none" stroke="#b0624e" stroke-width="2" />
+                </g>
+                <g id="sebastian-viseme-open" class="viseme" style="display: none;">
+                  <ellipse cx="250" cy="216" rx="13" ry="10" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+                  <path d="M 240 212 Q 250 214 260 212" fill="#ffffff" />
+                  <path d="M 243 222 Q 250 218 257 222" fill="#e06666" />
+                </g>
+                <g id="sebastian-viseme-round" class="viseme" style="display: none;">
+                  <ellipse cx="250" cy="216" rx="9" ry="11" fill="#4a1515" stroke="#9c4221" stroke-width="2.5" />
+                  <ellipse cx="250" cy="217" rx="6" ry="7" fill="#2d0b0b" />
+                </g>
+                <g id="sebastian-viseme-wide" class="viseme" style="display: none;">
+                  <path d="M 235 214 Q 250 211 265 214 Q 250 222 235 214 Z" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+                  <rect x="240" y="213" width="20" height="4" rx="1" fill="#ffffff" />
+                </g>
+                <g id="sebastian-viseme-mid" class="viseme" style="display: none;">
+                  <path d="M 236 215 Q 250 218 264 215" fill="none" stroke="#883c2a" stroke-width="4.5" stroke-linecap="round" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <!-- CHARACTER 2: DR. OLIVER BENNETT (Right) -->
+      <div id="char-oliver-wrapper" class="character-wrapper">
+        <div class="speaker-badge">
+          <div class="badge-name">Dr. Oliver Bennett</div>
+          <div class="badge-role">Energy Systems &amp; Computational Researcher</div>
+        </div>
+
+        <svg viewBox="0 0 500 900" width="100%" height="100%" class="char-svg-host" id="char-oliver-svg">
+          <defs>
+            <linearGradient id="shirtGradOliver" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#1d4ed8" />
+              <stop offset="50%" stop-color="#2563eb" />
+              <stop offset="100%" stop-color="#1e40af" />
+            </linearGradient>
+            <linearGradient id="skinGradOliver" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#fed7aa" />
+              <stop offset="100%" stop-color="#fbb686" />
+            </linearGradient>
+            <linearGradient id="hairGradOliver" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#33241b" />
+              <stop offset="100%" stop-color="#19120d" />
+            </linearGradient>
+          </defs>
+
+          <g id="oliver-root">
+            <ellipse cx="250" cy="870" rx="140" ry="24" fill="#000000" opacity="0.45" />
+
+            <!-- Legs & Smart-Casual Trousers -->
+            <g id="oliver-lower-body">
+              <path d="M 180 570 L 192 850 L 228 850 L 238 570 Z" fill="#1e293b" />
+              <path d="M 262 570 L 272 850 L 308 850 L 320 570 Z" fill="#182234" />
+              <path d="M 182 845 L 232 845 L 238 865 L 176 865 Z" fill="#2d2218" />
+              <path d="M 268 845 L 318 845 L 324 865 L 262 865 Z" fill="#2d2218" />
+            </g>
+
+            <!-- Torso & Cobalt-Blue Shirt -->
+            <g id="oliver-torso">
+              <rect x="180" y="555" width="140" height="18" rx="2" fill="#111827" />
+              <rect x="238" y="553" width="24" height="22" rx="2" fill="#94a3b8" />
+              <path d="M 165 300 Q 145 440 160 560 L 340 560 Q 355 440 335 300 Q 250 285 165 300 Z" fill="url(#shirtGradOliver)" stroke="#1d4ed8" stroke-width="1.2" />
+              <polygon points="215,295 240,360 250,330 230,295" fill="#3b82f6" />
+              <polygon points="285,295 260,360 250,330 270,295" fill="#3b82f6" />
+              <polygon points="240,330 260,330 250,365" fill="#fbb686" />
+
+              <line x1="250" y1="360" x2="250" y2="555" stroke="#1e3a8a" stroke-width="2.5" />
+              <circle cx="250" cy="385" r="3" fill="#dbeafe" />
+              <circle cx="250" cy="430" r="3" fill="#dbeafe" />
+              <circle cx="250" cy="475" r="3" fill="#dbeafe" />
+              <circle cx="250" cy="520" r="3" fill="#dbeafe" />
+
+              <!-- Badge -->
+              <rect x="285" y="380" width="30" height="45" rx="3" fill="#ffffff" opacity="0.9" stroke="#94a3b8" stroke-width="1" />
+              <rect x="290" y="385" width="20" height="14" fill="#2563eb" />
+              <line x1="290" y1="405" x2="310" y2="405" stroke="#0f172a" stroke-width="1.8" />
+              <line x1="290" y1="411" x2="305" y2="411" stroke="#64748b" stroke-width="1.4" />
+            </g>
+
+            <!-- Arms & Tablet -->
+            <g id="oliver-arms">
+              <g id="oliver-left-arm-group" class="arm-gesture">
+                <path id="oliver-left-arm" d="M 165 310 Q 125 410 145 490 Q 155 520 180 515" fill="none" stroke="#2563eb" stroke-width="40" stroke-linecap="round" />
+                <g id="oliver-left-hand" transform="translate(170, 500)">
+                  <rect x="-10" y="-15" width="45" height="30" rx="3" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" transform="rotate(-15)" />
+                  <line x1="-5" y1="-8" x2="20" y2="-8" stroke="#10b981" stroke-width="2" transform="rotate(-15)" />
+                  <line x1="-5" y1="-2" x2="15" y2="-2" stroke="#38bdf8" stroke-width="1.5" transform="rotate(-15)" />
+                  <circle cx="5" cy="0" r="14" fill="url(#skinGradOliver)" />
+                </g>
+              </g>
+
+              <g id="oliver-right-arm-group" class="arm-gesture">
+                <path id="oliver-right-arm" d="M 335 310 Q 365 410 345 500 Q 330 535 310 545" fill="none" stroke="#2563eb" stroke-width="40" stroke-linecap="round" />
+                <g id="oliver-right-hand" transform="translate(305, 545)">
+                  <circle cx="0" cy="0" r="14" fill="url(#skinGradOliver)" />
+                  <path d="M 5 -8 C 15 -18, 22 -6, 12 5" fill="none" stroke="url(#skinGradOliver)" stroke-width="5" stroke-linecap="round" />
+                </g>
+              </g>
+            </g>
+
+            <!-- Head Group -->
+            <g id="oliver-head-group" class="head-container">
+              <rect x="233" y="240" width="34" height="50" rx="5" fill="url(#skinGradOliver)" />
+              <path d="M 205 165 C 205 90, 295 90, 295 165 C 295 240, 275 260, 250 260 C 225 260, 205 240, 205 165 Z" fill="url(#skinGradOliver)" />
+              <ellipse cx="201" cy="172" rx="8" ry="15" fill="url(#skinGradOliver)" />
+              <ellipse cx="299" cy="172" rx="8" ry="15" fill="url(#skinGradOliver)" />
+
+              <!-- Hair -->
+              <path d="M 198 150 C 195 85, 235 60, 255 60 C 280 60, 305 80, 302 150 C 292 115, 270 105, 250 105 C 225 105, 208 120, 198 150 Z" fill="url(#hairGradOliver)" />
+              <path d="M 220 70 Q 235 55 245 68" fill="none" stroke="#4a3b32" stroke-width="4" stroke-linecap="round" />
+              <path d="M 245 62 Q 260 50 270 65" fill="none" stroke="#4a3b32" stroke-width="4" stroke-linecap="round" />
+
+              <!-- Eyebrows -->
+              <g id="oliver-eyebrows" class="eyebrows">
+                <path d="M 218 144 Q 232 138 244 142" fill="none" stroke="#241a13" stroke-width="4.2" stroke-linecap="round" />
+                <path d="M 256 142 Q 268 138 282 144" fill="none" stroke="#241a13" stroke-width="4.2" stroke-linecap="round" />
+              </g>
+
+              <!-- Eyes & Blinking -->
+              <g id="oliver-eyes" class="eyes-container">
+                <g id="oliver-eye-left">
+                  <ellipse cx="232" cy="159" rx="8.5" ry="6" fill="#ffffff" />
+                  <circle cx="233" cy="159" r="4.0" fill="#2d1d11" />
+                  <circle cx="234" cy="157" r="1.3" fill="#ffffff" />
+                  <path class="eye-lid" d="M 223 159 Q 232 151 241 159" fill="none" stroke="#2d2a29" stroke-width="2" />
+                </g>
+                <g id="oliver-eye-right">
+                  <ellipse cx="268" cy="159" rx="8.5" ry="6" fill="#ffffff" />
+                  <circle cx="267" cy="159" r="4.0" fill="#2d1d11" />
+                  <circle cx="268" cy="157" r="1.3" fill="#ffffff" />
+                  <path class="eye-lid" d="M 259 159 Q 268 151 277 159" fill="none" stroke="#2d2a29" stroke-width="2" />
+                </g>
+              </g>
+
+              <path d="M 250 157 L 247 183 L 253 184" fill="none" stroke="#dd6b20" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+
+              <!-- 5 Visemes -->
+              <g id="oliver-mouth" class="mouth-container">
+                <g id="oliver-viseme-rest" class="viseme" style="display: inline;">
+                  <path d="M 239 212 Q 250 215 261 212" fill="none" stroke="#9c4221" stroke-width="3.2" stroke-linecap="round" />
+                  <path d="M 243 214 Q 250 218 257 214" fill="none" stroke="#b0624e" stroke-width="2" />
+                </g>
+                <g id="oliver-viseme-open" class="viseme" style="display: none;">
+                  <ellipse cx="250" cy="214" rx="12" ry="9" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+                  <path d="M 241 210 Q 250 212 259 210" fill="#ffffff" />
+                  <path d="M 244 219 Q 250 216 256 219" fill="#e06666" />
+                </g>
+                <g id="oliver-viseme-round" class="viseme" style="display: none;">
+                  <ellipse cx="250" cy="214" rx="8.5" ry="10" fill="#4a1515" stroke="#9c4221" stroke-width="2.5" />
+                  <ellipse cx="250" cy="215" rx="5.5" ry="6" fill="#2d0b0b" />
+                </g>
+                <g id="oliver-viseme-wide" class="viseme" style="display: none;">
+                  <path d="M 236 212 Q 250 209 264 212 Q 250 220 236 212 Z" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+                  <rect x="241" y="211" width="18" height="3.5" rx="1" fill="#ffffff" />
+                </g>
+                <g id="oliver-viseme-mid" class="viseme" style="display: none;">
+                  <path d="M 237 213 Q 250 216 263 213" fill="none" stroke="#883c2a" stroke-width="4.2" stroke-linecap="round" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <!-- Subtitles Display -->
+      <div id="subtitles-overlay">
+        <div class="subtitle-speaker-tag">
+          <span class="pulse-dot"></span>
+          <span id="subtitle-speaker-name">Dr. Sebastian Clarke</span>
+        </div>
+        <p class="subtitle-text" id="subtitle-dialogue-text">
+          Welcome to the Clean Energy Systems Laboratory. Globally, electricity demand is projected to surge over seventy percent by mid-century.
+        </p>
+      </div>
+    </main>
+
+    <!-- BOTTOM CONTROLS & TIMELINE -->
+    <footer id="bottom-controls">
+      <!-- Progress Bar Track -->
+      <div class="timeline-wrapper">
+        <span class="time-display" id="time-readout">00:00 / 02:45</span>
+        <div class="progress-track" id="timeline-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Button Row & Scene Selector Pills -->
+      <div class="controls-row">
+        <div class="playback-buttons">
+          <button id="btn-play-pause" class="btn-ctrl btn-primary">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            Play
+          </button>
+          <button id="btn-restart" class="btn-ctrl">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+            Restart
+          </button>
+          <button id="btn-prev-scene" class="btn-ctrl">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            Prev Scene
+          </button>
+          <button id="btn-next-scene" class="btn-ctrl">
+            Next Scene
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+        <!-- 7 Scene Navigation Pills -->
+        <div class="scene-pills-bar" id="scene-pills-bar">
+          <!-- Dynamically populated or fallback -->
+          <button class="scene-pill active">S1: Energy</button>
+          <button class="scene-pill">S2: Solar</button>
+          <button class="scene-pill">S3: Wind</button>
+          <button class="scene-pill">S4: Storage</button>
+          <button class="scene-pill">S5: MATLAB</button>
+          <button class="scene-pill">S6: Future</button>
+          <button class="scene-pill">S7: Tomorrow</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SPLASH SCREEN OVERLAY -->
+    <div id="splash-overlay">
+      <div class="splash-box">
+        <div class="splash-badge">GOOGLE ANTIGRAVITY ACADEMIC PRESENTATION</div>
+        <h2 class="splash-title">THE FUTURE OF RENEWABLE ENERGY</h2>
+        <div class="splash-subtitle">POWERING A CLEANER, SMARTER, AND MORE SUSTAINABLE WORLD</div>
+        <div class="splash-meta">
+          <span><strong>Format:</strong> Animated Scientific Conversation</span>
+          <span><strong>Duration:</strong> 165 Seconds (7 Scenes)</span>
+          <span><strong>Researchers:</strong> Dr. Sebastian Clarke &amp; Dr. Oliver Bennett</span>
+        </div>
+        <button id="btn-start-presentation" class="btn-start-presentation">
+          START SCIENTIFIC PRESENTATION
+        </button>
+      </div>
+    </div>
+
+    <!-- MATLAB RESULTS DASHBOARD MODAL -->
+    <div id="matlab-modal">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h2>MATLAB COMPUTATIONAL ENGINEERING DASHBOARD</h2>
+          <p id="modal-engine-badge">Engine: MATLAB R2026 / RenewableEnergy.m</p>
+        </div>
+        <button id="btn-close-matlab" class="btn-close-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-tabs">
+          <button class="tab-btn active" data-plot-key="solar">1. Solar Irradiance &amp; Power</button>
+          <button class="tab-btn" data-plot-key="wind">2. Wind Aerodynamics (Betz)</button>
+          <button class="tab-btn" data-plot-key="mix">3. 24-Hour Energy Mix</button>
+          <button class="tab-btn" data-plot-key="battery">4. Battery State-of-Charge (SoC)</button>
+          <button class="tab-btn" data-plot-key="balance">5. Demand vs. Generation Balance</button>
+          
+          <div style="margin-top: auto; padding-top: 15px; border-top: 1px solid rgba(56, 189, 248, 0.2);">
+            <div style="font-size: 10px; color: var(--accent-cyan); margin-bottom: 8px;">DATA EXPORTS:</div>
+            <a href="data/hourly_generation_demand.csv" download class="btn-util" style="text-decoration: none; margin-bottom: 6px; display: block; text-align: center;">Download Hourly CSV</a>
+            <a href="data/simulation_results.json" download class="btn-util" style="text-decoration: none; display: block; text-align: center;">Download Results JSON</a>
+          </div>
+        </div>
+        <div class="modal-plot-viewer">
+          <img id="modal-plot-img" class="modal-plot-img" src="static/images/solar_irradiance_power.png" alt="Engineering Plot">
+          <div class="modal-metrics-bar" id="modal-metrics-bar">
+            <!-- Populated via presentation_app.js -->
+          </div>
+          <p id="modal-plot-description" style="margin-top: 12px; font-size: 11px; color: var(--text-muted); text-align: center; max-width: 800px;">
+            Solar irradiance G(t) [W/m²] vs. power output across Standard Silicon (20%), TOPCon (24%), and Perovskite Tandem (32%). Peak output reaches 360 MW.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIAGNOSTICS DRAWER -->
+    <div id="diagnostics-drawer">
+      <div class="diag-header">
+        <span>SYSTEM &amp; SPEECH DIAGNOSTICS</span>
+      </div>
+      <div class="diag-content">
+        <div id="diag-voice-info" style="border-bottom: 1px solid rgba(256, 256, 256, 0.1); padding-bottom: 8px;">
+          <!-- Voice detection status -->
+        </div>
+        <div id="diag-log-list">
+          <!-- Real-time log entries -->
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- End #app-container -->
+
+  <!-- JavaScript Modules -->
+  <script src="static/js/speech_engine.js"></script>
+  <script src="static/js/animation_controller.js"></script>
+  <script src="static/js/presentation_app.js"></script>
+</body>
+</html>

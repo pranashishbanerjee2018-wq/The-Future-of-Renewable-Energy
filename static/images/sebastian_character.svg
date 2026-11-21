@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 900" width="100%" height="100%" id="char-sebastian-svg">
+  <defs>
+    <linearGradient id="suitGradSeb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d3748" />
+      <stop offset="50%" stop-color="#1a202c" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="skinGradSeb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbd38d" />
+      <stop offset="100%" stop-color="#ed8936" />
+    </linearGradient>
+    <linearGradient id="hairGradSeb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b2b1a" />
+      <stop offset="100%" stop-color="#1e140a" />
+    </linearGradient>
+    <linearGradient id="tieGradSeb" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+
+  <g id="sebastian-root">
+    <!-- SHADOW ON FLOOR -->
+    <ellipse cx="250" cy="870" rx="145" ry="25" fill="#000000" opacity="0.45" />
+
+    <!-- LEGS & TROUSERS (Dark Charcoal Suit Trousers) -->
+    <g id="sebastian-lower-body">
+      <path d="M 175 580 L 188 850 L 228 850 L 240 580 Z" fill="#1a202c" />
+      <path d="M 260 580 L 272 850 L 312 850 L 325 580 Z" fill="#171923" />
+      <!-- Polished Dress Shoes -->
+      <path d="M 178 845 L 232 845 L 238 865 L 172 865 Z" fill="#0f1117" />
+      <path d="M 268 845 L 322 845 L 328 865 L 262 865 Z" fill="#0f1117" />
+    </g>
+
+    <!-- TORSO & CHARCOAL SUIT -->
+    <g id="sebastian-torso">
+      <!-- White Collared Shirt -->
+      <polygon points="215,300 250,420 285,300 250,330" fill="#f8fafc" />
+      <!-- Silk Cyan/Navy Tie -->
+      <polygon points="244,330 256,330 258,450 250,470 242,450" fill="url(#tieGradSeb)" />
+
+      <!-- Charcoal Suit Jacket -->
+      <path d="M 160 300 Q 140 440 155 580 L 345 580 Q 360 440 340 300 Q 250 280 160 300 Z" fill="url(#suitGradSeb)" stroke="#374151" stroke-width="1.5" />
+      <!-- Left Lapel -->
+      <polygon points="160,300 220,440 240,440 195,300" fill="#2d3748" />
+      <!-- Right Lapel -->
+      <polygon points="340,300 280,440 260,440 305,300" fill="#2d3748" />
+
+      <!-- Senior Scientist Badge -->
+      <rect x="290" y="380" width="32" height="46" rx="3" fill="#ffffff" opacity="0.9" stroke="#94a3b8" stroke-width="1" />
+      <rect x="294" y="385" width="24" height="15" fill="#0284c7" />
+      <line x1="294" y1="406" x2="318" y2="406" stroke="#0f172a" stroke-width="2" />
+      <line x1="294" y1="412" x2="312" y2="412" stroke="#64748b" stroke-width="1.5" />
+    </g>
+
+    <!-- ARMS & GESTURES -->
+    <g id="sebastian-arms">
+      <!-- Left arm (Composed analytical gesture) -->
+      <g id="sebastian-left-arm-group" class="arm-gesture">
+        <path id="sebastian-left-arm" d="M 160 310 Q 120 420 135 510 Q 145 535 175 525" fill="none" stroke="#2d3748" stroke-width="42" stroke-linecap="round" />
+        <g id="sebastian-left-hand" transform="translate(170, 520)">
+          <circle cx="0" cy="0" r="15" fill="url(#skinGradSeb)" />
+          <path d="M 0 -8 C 10 -15, 18 -6, 10 5" fill="none" stroke="url(#skinGradSeb)" stroke-width="5" stroke-linecap="round" />
+        </g>
+      </g>
+
+      <!-- Right arm (Senior scientist explanatory gesture) -->
+      <g id="sebastian-right-arm-group" class="arm-gesture">
+        <path id="sebastian-right-arm" d="M 340 310 Q 380 420 365 505 Q 345 540 315 540" fill="none" stroke="#2d3748" stroke-width="42" stroke-linecap="round" />
+        <g id="sebastian-right-hand" transform="translate(315, 540)">
+          <circle cx="0" cy="0" r="15" fill="url(#skinGradSeb)" />
+          <path d="M 5 -8 C 16 -18, 24 -6, 14 5" fill="none" stroke="url(#skinGradSeb)" stroke-width="5" stroke-linecap="round" />
+        </g>
+      </g>
+    </g>
+
+    <!-- NECK & HEAD GROUP (can tilt/nod) -->
+    <g id="sebastian-head-group" class="head-container">
+      <!-- Neck -->
+      <rect x="232" y="240" width="36" height="50" rx="6" fill="url(#skinGradSeb)" />
+
+      <!-- Head Base -->
+      <path d="M 200 160 C 200 80, 300 80, 300 160 C 300 240, 280 265, 250 265 C 220 265, 200 240, 200 160 Z" fill="url(#skinGradSeb)" />
+
+      <!-- Ears -->
+      <ellipse cx="196" cy="170" rx="8" ry="16" fill="url(#skinGradSeb)" />
+      <ellipse cx="304" cy="170" rx="8" ry="16" fill="url(#skinGradSeb)" />
+
+      <!-- Neatly styled dark brown hair (36yo Senior Scientist) -->
+      <path d="M 194 150 C 190 90, 230 65, 250 65 C 275 65, 310 85, 306 150 C 298 120, 280 110, 250 110 C 220 110, 202 125, 194 150 Z" fill="url(#hairGradSeb)" />
+      <path d="M 194 135 C 190 165, 205 165, 205 145 Z" fill="url(#hairGradSeb)" />
+      <path d="M 306 135 C 310 165, 295 165, 295 145 Z" fill="url(#hairGradSeb)" />
+
+      <!-- Eyebrows (Composed, analytical) -->
+      <g id="sebastian-eyebrows" class="eyebrows">
+        <path d="M 215 145 Q 230 140 242 144" fill="none" stroke="#261b11" stroke-width="4.5" stroke-linecap="round" />
+        <path d="M 258 144 Q 270 140 285 145" fill="none" stroke="#261b11" stroke-width="4.5" stroke-linecap="round" />
+      </g>
+
+      <!-- Eyes (Natural Blinking System) -->
+      <g id="sebastian-eyes" class="eyes-container">
+        <!-- Left eye -->
+        <g id="sebastian-eye-left">
+          <ellipse cx="230" cy="160" rx="9" ry="6" fill="#ffffff" />
+          <circle cx="231" cy="160" r="4.2" fill="#2d1d11" />
+          <circle cx="232" cy="158" r="1.3" fill="#ffffff" />
+          <path class="eye-lid" d="M 221 160 Q 230 152 239 160" fill="none" stroke="#2d2a29" stroke-width="2" />
+        </g>
+        <!-- Right eye -->
+        <g id="sebastian-eye-right">
+          <ellipse cx="270" cy="160" rx="9" ry="6" fill="#ffffff" />
+          <circle cx="269" cy="160" r="4.2" fill="#2d1d11" />
+          <circle cx="270" cy="158" r="1.3" fill="#ffffff" />
+          <path class="eye-lid" d="M 261 160 Q 270 152 279 160" fill="none" stroke="#2d2a29" stroke-width="2" />
+        </g>
+      </g>
+
+      <!-- Nose -->
+      <path d="M 250 158 L 246 185 L 254 186" fill="none" stroke="#c05621" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- 5 MOUTH VISEMES (REST, OPEN, ROUND, WIDE, MID) -->
+      <g id="sebastian-mouth" class="mouth-container">
+        <!-- 1. REST (Default closed lips) -->
+        <g id="sebastian-viseme-rest" class="viseme" style="display: inline;">
+          <path d="M 238 214 Q 250 216 262 214" fill="none" stroke="#9c4221" stroke-width="3.5" stroke-linecap="round" />
+          <path d="M 242 216 Q 250 220 258 216" fill="none" stroke="#b0624e" stroke-width="2" />
+        </g>
+        <!-- 2. OPEN ('ah', 'aa') -->
+        <g id="sebastian-viseme-open" class="viseme" style="display: none;">
+          <ellipse cx="250" cy="216" rx="13" ry="10" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+          <path d="M 240 212 Q 250 214 260 212" fill="#ffffff" />
+          <path d="M 243 222 Q 250 218 257 222" fill="#e06666" />
+        </g>
+        <!-- 3. ROUND ('oh', 'oo', 'w') -->
+        <g id="sebastian-viseme-round" class="viseme" style="display: none;">
+          <ellipse cx="250" cy="216" rx="9" ry="11" fill="#4a1515" stroke="#9c4221" stroke-width="2.5" />
+          <ellipse cx="250" cy="217" rx="6" ry="7" fill="#2d0b0b" />
+        </g>
+        <!-- 4. WIDE ('ee', 'ih', 'ae') -->
+        <g id="sebastian-viseme-wide" class="viseme" style="display: none;">
+          <path d="M 235 214 Q 250 211 265 214 Q 250 222 235 214 Z" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+          <rect x="240" y="213" width="20" height="4" rx="1" fill="#ffffff" />
+        </g>
+        <!-- 5. MID ('m', 'b', 'p', 'th', 's') -->
+        <g id="sebastian-viseme-mid" class="viseme" style="display: none;">
+          <path d="M 236 215 Q 250 218 264 215" fill="none" stroke="#883c2a" stroke-width="4.5" stroke-linecap="round" />
+        </g>
+      </g>
+    </g> <!-- end head group -->
+  </g>
+</svg>

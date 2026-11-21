@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 900" width="100%" height="100%" id="char-oliver-svg">
+  <defs>
+    <linearGradient id="shirtGradOliver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="50%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1e40af" />
+    </linearGradient>
+    <linearGradient id="skinGradOliver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fbb686" />
+    </linearGradient>
+    <linearGradient id="hairGradOliver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#33241b" />
+      <stop offset="100%" stop-color="#19120d" />
+    </linearGradient>
+  </defs>
+
+  <g id="oliver-root">
+    <!-- SHADOW ON FLOOR -->
+    <ellipse cx="250" cy="870" rx="140" ry="24" fill="#000000" opacity="0.45" />
+
+    <!-- LEGS & LOWER BODY (Dark Slate Smart-Casual Trousers) -->
+    <g id="oliver-lower-body">
+      <path d="M 180 570 L 192 850 L 228 850 L 238 570 Z" fill="#1e293b" />
+      <path d="M 262 570 L 272 850 L 308 850 L 320 570 Z" fill="#182234" />
+      <!-- Leather Boots / Shoes -->
+      <path d="M 182 845 L 232 845 L 238 865 L 176 865 Z" fill="#2d2218" />
+      <path d="M 268 845 L 318 845 L 324 865 L 262 865 Z" fill="#2d2218" />
+    </g>
+
+    <!-- TORSO & COBALT-BLUE SMART-CASUAL SHIRT -->
+    <g id="oliver-torso">
+      <!-- Dark belt -->
+      <rect x="180" y="555" width="140" height="18" rx="2" fill="#111827" />
+      <rect x="238" y="553" width="24" height="22" rx="2" fill="#94a3b8" />
+
+      <!-- Cobalt-Blue Smart-Casual Shirt -->
+      <path d="M 165 300 Q 145 440 160 560 L 340 560 Q 355 440 335 300 Q 250 285 165 300 Z" fill="url(#shirtGradOliver)" stroke="#1d4ed8" stroke-width="1.2" />
+      <!-- Open Smart Collar -->
+      <polygon points="215,295 240,360 250,330 230,295" fill="#3b82f6" />
+      <polygon points="285,295 260,360 250,330 270,295" fill="#3b82f6" />
+      <polygon points="240,330 260,330 250,365" fill="#fbb686" />
+
+      <!-- Center Button Placket -->
+      <line x1="250" y1="360" x2="250" y2="555" stroke="#1e3a8a" stroke-width="2.5" />
+      <circle cx="250" cy="385" r="3" fill="#dbeafe" />
+      <circle cx="250" cy="430" r="3" fill="#dbeafe" />
+      <circle cx="250" cy="475" r="3" fill="#dbeafe" />
+      <circle cx="250" cy="520" r="3" fill="#dbeafe" />
+
+      <!-- Lab Researcher Badge -->
+      <rect x="285" y="380" width="30" height="45" rx="3" fill="#ffffff" opacity="0.9" stroke="#94a3b8" stroke-width="1" />
+      <rect x="290" y="385" width="20" height="14" fill="#2563eb" />
+      <line x1="290" y1="405" x2="310" y2="405" stroke="#0f172a" stroke-width="1.8" />
+      <line x1="290" y1="411" x2="305" y2="411" stroke="#64748b" stroke-width="1.4" />
+    </g>
+
+    <!-- ARMS & GESTURES -->
+    <g id="oliver-arms">
+      <!-- Left arm (Holding computing tablet) -->
+      <g id="oliver-left-arm-group" class="arm-gesture">
+        <path id="oliver-left-arm" d="M 165 310 Q 125 410 145 490 Q 155 520 180 515" fill="none" stroke="#2563eb" stroke-width="40" stroke-linecap="round" />
+        <!-- Futuristic Computational Tablet -->
+        <g id="oliver-left-hand" transform="translate(170, 500)">
+          <rect x="-10" y="-15" width="45" height="30" rx="3" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5" transform="rotate(-15)" />
+          <line x1="-5" y1="-8" x2="20" y2="-8" stroke="#10b981" stroke-width="2" transform="rotate(-15)" />
+          <line x1="-5" y1="-2" x2="15" y2="-2" stroke="#38bdf8" stroke-width="1.5" transform="rotate(-15)" />
+          <circle cx="5" cy="0" r="14" fill="url(#skinGradOliver)" />
+        </g>
+      </g>
+
+      <!-- Right arm (Expressive explanatory gestures) -->
+      <g id="oliver-right-arm-group" class="arm-gesture">
+        <path id="oliver-right-arm" d="M 335 310 Q 365 410 345 500 Q 330 535 310 545" fill="none" stroke="#2563eb" stroke-width="40" stroke-linecap="round" />
+        <g id="oliver-right-hand" transform="translate(305, 545)">
+          <circle cx="0" cy="0" r="14" fill="url(#skinGradOliver)" />
+          <path d="M 5 -8 C 15 -18, 22 -6, 12 5" fill="none" stroke="url(#skinGradOliver)" stroke-width="5" stroke-linecap="round" />
+        </g>
+      </g>
+    </g>
+
+    <!-- NECK & HEAD GROUP (Curious, energetic 29yo researcher) -->
+    <g id="oliver-head-group" class="head-container">
+      <!-- Neck -->
+      <rect x="233" y="240" width="34" height="50" rx="5" fill="url(#skinGradOliver)" />
+
+      <!-- Head Base -->
+      <path d="M 205 165 C 205 90, 295 90, 295 165 C 295 240, 275 260, 250 260 C 225 260, 205 240, 205 165 Z" fill="url(#skinGradOliver)" />
+
+      <!-- Ears -->
+      <ellipse cx="201" cy="172" rx="8" ry="15" fill="url(#skinGradOliver)" />
+      <ellipse cx="299" cy="172" rx="8" ry="15" fill="url(#skinGradOliver)" />
+
+      <!-- Textured modern short dark hair -->
+      <path d="M 198 150 C 195 85, 235 60, 255 60 C 280 60, 305 80, 302 150 C 292 115, 270 105, 250 105 C 225 105, 208 120, 198 150 Z" fill="url(#hairGradOliver)" />
+      <!-- Textured hair tufts -->
+      <path d="M 220 70 Q 235 55 245 68" fill="none" stroke="#4a3b32" stroke-width="4" stroke-linecap="round" />
+      <path d="M 245 62 Q 260 50 270 65" fill="none" stroke="#4a3b32" stroke-width="4" stroke-linecap="round" />
+
+      <!-- Eyebrows (Curious, enthusiastic) -->
+      <g id="oliver-eyebrows" class="eyebrows">
+        <path d="M 218 144 Q 232 138 244 142" fill="none" stroke="#241a13" stroke-width="4.2" stroke-linecap="round" />
+        <path d="M 256 142 Q 268 138 282 144" fill="none" stroke="#241a13" stroke-width="4.2" stroke-linecap="round" />
+      </g>
+
+      <!-- Eyes (Natural Blinking System) -->
+      <g id="oliver-eyes" class="eyes-container">
+        <!-- Left eye -->
+        <g id="oliver-eye-left">
+          <ellipse cx="232" cy="159" rx="8.5" ry="6" fill="#ffffff" />
+          <circle cx="233" cy="159" r="4.0" fill="#2d1d11" />
+          <circle cx="234" cy="157" r="1.3" fill="#ffffff" />
+          <path class="eye-lid" d="M 223 159 Q 232 151 241 159" fill="none" stroke="#2d2a29" stroke-width="2" />
+        </g>
+        <!-- Right eye -->
+        <g id="oliver-eye-right">
+          <ellipse cx="268" cy="159" rx="8.5" ry="6" fill="#ffffff" />
+          <circle cx="267" cy="159" r="4.0" fill="#2d1d11" />
+          <circle cx="268" cy="157" r="1.3" fill="#ffffff" />
+          <path class="eye-lid" d="M 259 159 Q 268 151 277 159" fill="none" stroke="#2d2a29" stroke-width="2" />
+        </g>
+      </g>
+
+      <!-- Nose -->
+      <path d="M 250 157 L 247 183 L 253 184" fill="none" stroke="#dd6b20" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+
+      <!-- 5 MOUTH VISEMES -->
+      <g id="oliver-mouth" class="mouth-container">
+        <!-- 1. REST (Default closed lips) -->
+        <g id="oliver-viseme-rest" class="viseme" style="display: inline;">
+          <path d="M 239 212 Q 250 215 261 212" fill="none" stroke="#9c4221" stroke-width="3.2" stroke-linecap="round" />
+          <path d="M 243 214 Q 250 218 257 214" fill="none" stroke="#b0624e" stroke-width="2" />
+        </g>
+        <!-- 2. OPEN ('ah', 'aa') -->
+        <g id="oliver-viseme-open" class="viseme" style="display: none;">
+          <ellipse cx="250" cy="214" rx="12" ry="9" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+          <path d="M 241 210 Q 250 212 259 210" fill="#ffffff" />
+          <path d="M 244 219 Q 250 216 256 219" fill="#e06666" />
+        </g>
+        <!-- 3. ROUND ('oh', 'oo', 'w') -->
+        <g id="oliver-viseme-round" class="viseme" style="display: none;">
+          <ellipse cx="250" cy="214" rx="8.5" ry="10" fill="#4a1515" stroke="#9c4221" stroke-width="2.5" />
+          <ellipse cx="250" cy="215" rx="5.5" ry="6" fill="#2d0b0b" />
+        </g>
+        <!-- 4. WIDE ('ee', 'ih', 'ae') -->
+        <g id="oliver-viseme-wide" class="viseme" style="display: none;">
+          <path d="M 236 212 Q 250 209 264 212 Q 250 220 236 212 Z" fill="#4a1515" stroke="#9c4221" stroke-width="2" />
+          <rect x="241" y="211" width="18" height="3.5" rx="1" fill="#ffffff" />
+        </g>
+        <!-- 5. MID ('m', 'b', 'p', 'th', 's') -->
+        <g id="oliver-viseme-mid" class="viseme" style="display: none;">
+          <path d="M 237 213 Q 250 216 263 213" fill="none" stroke="#883c2a" stroke-width="4.2" stroke-linecap="round" />
+        </g>
+      </g>
+    </g> <!-- end head group -->
+  </g>
+</svg>

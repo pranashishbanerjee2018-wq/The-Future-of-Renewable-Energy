@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "title": "The Energy Challenge",
+    "subtitle": "Global Power Demand, Emissions, and the Mandate for Transition",
+    "start_time": 0,
+    "end_time": 22,
+    "duration": 22,
+    "background": "lab_background.svg",
+    "hologram_type": "earth_energy_globe",
+    "hologram_title": "GLOBAL ENERGY METRICS & CARBON PROFILE",
+    "hologram_caption": "Surging electricity demand vs. 420+ ppm atmospheric CO2 trajectory",
+    "dialogues": [
+      {
+        "id": "d1_1",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 0,
+        "end_sec": 11,
+        "duration": 11,
+        "text": "Welcome to the Clean Energy Systems Laboratory. Globally, electricity demand is projected to surge over seventy percent by mid-century. Yet over eighty percent of primary energy has historically relied on fossil combustion, driving atmospheric carbon emissions past four hundred and twenty parts per million.",
+        "focus_topic": "Global Energy Demand & Emissions",
+        "camera": "wide_lab"
+      },
+      {
+        "id": "d1_2",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 11,
+        "end_sec": 22,
+        "duration": 11,
+        "text": "That scale of combustion poses an unprecedented climatic and infrastructural challenge, Sebastian. With grid decarbonization now an urgent global mandate, can humanity realistically build a resilient, affordable, and fully reliable power system anchored entirely by renewable resources?",
+        "focus_topic": "The Central Question of Clean Transition",
+        "camera": "oliver_closeup"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Power of the Sun",
+    "subtitle": "Photovoltaic Physics, Semiconductor Bandgaps, and Solar Architecture",
+    "start_time": 22,
+    "end_time": 44,
+    "duration": 22,
+    "background": "lab_background.svg",
+    "hologram_type": "pv_cell_cross_section",
+    "hologram_title": "PHOTOVOLTAIC CONVERSION MECHANISM",
+    "hologram_caption": "Photon absorption, electron-hole pair generation, and p-n junction electric field",
+    "dialogues": [
+      {
+        "id": "d2_1",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 22,
+        "end_sec": 33,
+        "duration": 11,
+        "text": "The solar resource is vast: Earth intercepts over one hundred and seventy thousand terawatts of solar irradiance. In photovoltaic semiconductors, incident photons with energies exceeding the silicon bandgap excite valence electrons across the junction, directly inducing direct-current power.",
+        "focus_topic": "Semiconductor Physics & Bandgap Conversion",
+        "camera": "sebastian_closeup"
+      },
+      {
+        "id": "d2_2",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 33,
+        "end_sec": 44,
+        "duration": 11,
+        "text": "Commercial silicon modules routinely achieve twenty-two percent efficiency, while utility-scale solar farms and decentralized rooftop installations provide the lowest levelized cost of electricity in history. But optimizing efficiency under changing irradiance remains a computational frontier.",
+        "focus_topic": "Solar Efficiency & Levelized Cost",
+        "camera": "pv_focus"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Harnessing the Wind and Water",
+    "subtitle": "Aerodynamic Lift, Betz's Theoretical Limit, Hydro, and Geothermal Energy",
+    "start_time": 44,
+    "end_time": 68,
+    "duration": 24,
+    "background": "lab_background.svg",
+    "hologram_type": "wind_hydro_geo",
+    "hologram_title": "FLUID KINETICS & THERMAL GENERATION",
+    "hologram_caption": "Airfoil boundary layer dynamics, Pelton hydro turbines, and geothermal enthalpy",
+    "dialogues": [
+      {
+        "id": "d3_1",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 44,
+        "end_sec": 56,
+        "duration": 12,
+        "text": "Beyond solar, kinetic and thermal planetary flows provide immense continuous power. Modern offshore wind turbines deploy two-hundred-meter rotors capturing boundary-layer winds, while hydroelectric reservoirs and deep geothermal systems offer high-inertia dispatchable energy.",
+        "focus_topic": "Offshore Wind, Hydro & Geothermal Systems",
+        "camera": "wide_lab"
+      },
+      {
+        "id": "d3_2",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 56,
+        "end_sec": 68,
+        "duration": 12,
+        "text": "Notice how aerodynamic lift translates fluid kinetic energy into electrical torque, bound by Betz's theoretical law. Because no single geographical region possesses uniform resources, pairing diversified wind corridors with hydro and geothermal is essential for regional stability.",
+        "focus_topic": "Betz Law & Geographical Resource Diversity",
+        "camera": "oliver_closeup"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The Storage Revolution",
+    "subtitle": "Intermittency, Lithium-Ion Arrays, Pumped Hydro, and Smart Grids",
+    "start_time": 68,
+    "end_time": 93,
+    "duration": 25,
+    "background": "lab_background.svg",
+    "hologram_type": "smart_grid_network",
+    "hologram_title": "INTELLIGENT SMART GRID ARCHITECTURE",
+    "hologram_caption": "Bidirectional power flow, battery storage buffering, and real-time demand response",
+    "dialogues": [
+      {
+        "id": "d4_1",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 68,
+        "end_sec": 80,
+        "duration": 12,
+        "text": "However, variable meteorological conditions introduce solar and wind intermittency. Without robust grid-scale storage, generation fluctuations create steep ramp rates—the well-known duck curve—risking frequency instability and transmission curtailment.",
+        "focus_topic": "Grid Intermittency & The Duck Curve",
+        "camera": "sebastian_closeup"
+      },
+      {
+        "id": "d4_2",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 80,
+        "end_sec": 93,
+        "duration": 13,
+        "text": "This is where multi-timescale storage transforms the grid. Utility lithium-ion battery arrays provide sub-second frequency regulation, pumped hydro delivers multi-hour balancing, and clean electrolytic hydrogen enables seasonal storage, creating a resilient, demand-responsive network.",
+        "focus_topic": "Multi-Timescale Storage & Grid Flexibility",
+        "camera": "grid_focus"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "MATLAB Engineering Analysis",
+    "subtitle": "Numerical Simulation: Solar, Wind Aerodynamics, Battery SoC, and Demand Matching",
+    "start_time": 93,
+    "end_time": 120,
+    "duration": 27,
+    "background": "lab_background.svg",
+    "hologram_type": "matlab_dashboard_view",
+    "hologram_title": "MATLAB NUMERICAL SIMULATION: RenewableEnergy.m",
+    "hologram_caption": "Coupled differential equations: Solar P=G*A*η, Wind Betz aerodynamics, and Battery SoC",
+    "dialogues": [
+      {
+        "id": "d5_1",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 93,
+        "end_sec": 106,
+        "duration": 13,
+        "text": "To validate these dynamics rigorously, we modeled a simulated regional grid in MATLAB script RenewableEnergy.m. We evaluated solar conversion, Betz-compliant wind aerodynamics, battery state-of-charge dynamics, and hour-by-hour demand matching.",
+        "focus_topic": "MATLAB Numerical Formulation & Physics Modeling",
+        "camera": "dashboard_closeup"
+      },
+      {
+        "id": "d5_2",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 106,
+        "end_sec": 120,
+        "duration": 14,
+        "text": "The MATLAB simulations demonstrate that coupling three gigawatts of diversified wind and solar with six gigawatt-hours of battery storage successfully covers ninety-two percent of simulated regional demand, with round-trip storage efficiency maintaining grid stability.",
+        "focus_topic": "Simulation Results & 92% Demand Coverage",
+        "camera": "wide_lab"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The Future of Clean Energy Technology",
+    "subtitle": "Perovskite Tandems, Floating Offshore Turbines, Green Hydrogen, and AI Dispatch",
+    "start_time": 120,
+    "end_time": 145,
+    "duration": 25,
+    "background": "lab_background.svg",
+    "hologram_type": "sustainable_future_city",
+    "hologram_title": "NEXT-GENERATION CLEAN ENERGY SYSTEMS",
+    "hologram_caption": "Perovskite tandem cells, floating offshore wind, green H2, and vehicle-to-grid AI dispatch",
+    "dialogues": [
+      {
+        "id": "d6_1",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 120,
+        "end_sec": 133,
+        "duration": 13,
+        "text": "Looking toward next-generation technologies, perovskite tandem photovoltaics are breaching thirty-three percent laboratory efficiency, while deepwater floating wind turbines and green hydrogen expand access to untapped oceanic energy resources.",
+        "focus_topic": "Emerging Technologies: Perovskites, Floating Wind, Green H2",
+        "camera": "sebastian_closeup"
+      },
+      {
+        "id": "d6_2",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 133,
+        "end_sec": 145,
+        "duration": 12,
+        "text": "Simultaneously, machine learning models optimize predictive generation forecasts up to forty-eight hours ahead, while bidirectional vehicle-to-grid integration turns millions of electric vehicles into a distributed, flexible energy reservoir.",
+        "focus_topic": "AI Forecasting & Distributed Vehicle-to-Grid (V2G)",
+        "camera": "city_focus"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Powering Tomorrow",
+    "subtitle": "Engineering Responsibility, Global Collaboration, and a Sustainable World",
+    "start_time": 145,
+    "end_time": 165,
+    "duration": 20,
+    "background": "lab_background.svg",
+    "hologram_type": "grand_finale_city",
+    "hologram_title": "THE FUTURE OF RENEWABLE ENERGY",
+    "hologram_caption": "Powering a Cleaner, Smarter, and More Sustainable World",
+    "dialogues": [
+      {
+        "id": "d7_1",
+        "speaker": "sebastian",
+        "speaker_title": "Dr. Sebastian Clarke — Senior Renewable Energy Scientist",
+        "start_sec": 145,
+        "end_sec": 155,
+        "duration": 10,
+        "text": "The transition to clean power is not merely an environmental imperative; it is a profound engineering revolution requiring systems integration, advanced materials, and global collaboration.",
+        "focus_topic": "Systems Integration & Engineering Responsibility",
+        "camera": "wide_lab"
+      },
+      {
+        "id": "d7_2",
+        "speaker": "oliver",
+        "speaker_title": "Dr. Oliver Bennett — Energy Systems & Computational Researcher",
+        "start_sec": 155,
+        "end_sec": 165,
+        "duration": 10,
+        "text": "Indeed, Sebastian. The future of energy will not be powered by a single invention. It will be built through innovation, intelligent engineering, and the responsible use of the resources our planet provides.",
+        "focus_topic": "Grand Synthesis & Planetary Responsibility",
+        "camera": "cinematic_finale"
+      }
+    ]
+  }
+]

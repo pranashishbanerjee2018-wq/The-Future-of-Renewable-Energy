@@ -1,0 +1,31 @@
+{
+  "engine": "Python Fallback (NumPy/Matplotlib Scientific Pipeline)",
+  "matlab_available": false,
+  "matlab_script": "RenewableEnergy.m",
+  "timestamp": "2026-11-21T15:51:55.426149",
+  "status": "COMPLETED_SUCCESSFULLY",
+  "authors": "Dr. Sebastian Clarke & Dr. Oliver Bennett",
+  "solar_collector_area_m2": 1500000.0,
+  "solar_peak_stc_W_m2": 1000.0,
+  "solar_standard_daily_MWh": 2291.7,
+  "solar_topcon_daily_MWh": 2750.04,
+  "solar_tandem_daily_MWh": 3666.72,
+  "wind_rotor_diameter_m": 150.0,
+  "wind_betz_limit_pct": 59.26,
+  "wind_cp_peak": 0.46,
+  "wind_fleet_turbines": 60,
+  "wind_fleet_rated_MW": 360.0,
+  "battery_capacity_MWh": 1200.0,
+  "battery_power_rating_MW": 300.0,
+  "battery_roundtrip_efficiency_pct": 88.36,
+  "total_daily_demand_MWh": 11915.0,
+  "total_daily_re_gen_MWh": 12302.27,
+  "re_demand_coverage_pct": 99.52,
+  "plots": [
+    "results/solar_irradiance_power.png",
+    "results/wind_speed_power.png",
+    "results/renewable_energy_mix.png",
+    "results/battery_soc_profile.png",
+    "results/demand_vs_generation_balance.png"
+  ]
+}

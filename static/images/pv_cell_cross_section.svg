@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+    <linearGradient id="nTypeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+    <linearGradient id="pTypeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#115e59" />
+    </linearGradient>
+    <linearGradient id="depletionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="50%" stop-color="#10b981" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0d9488" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Background Panel -->
+  <rect width="900" height="600" rx="12" fill="#090d16" stroke="#1e293b" stroke-width="2" />
+
+  <!-- Diagram Header -->
+  <text x="450" y="45" font-family="'Consolas', 'Courier New', monospace" font-size="18" font-weight="bold" fill="#38bdf8" text-anchor="middle">PHOTOVOLTAIC CONVERSION: SEMICONDUCTOR P-N JUNCTION</text>
+  <text x="450" y="70" font-family="sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">Incident photon (hν > Eg) creates electron-hole pair; internal electric field drives DC current</text>
+
+  <!-- Incident Solar Rays -->
+  <g>
+    <!-- Sun symbol -->
+    <circle cx="100" cy="110" r="30" fill="url(#sunGrad)" />
+    <!-- Rays -->
+    <path d="M 140 120 L 220 180" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="5 3" marker-end="url(#arrow)" />
+    <path d="M 150 140 L 270 210" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="5 3" />
+    <path d="M 120 150 L 320 220" stroke="#f59e0b" stroke-width="2.5" stroke-dasharray="5 3" />
+    <text x="190" y="145" font-family="'Consolas', monospace" font-size="13" font-weight="bold" fill="#f59e0b">Incident Photons (hν > E_g)</text>
+  </g>
+
+  <!-- Front Contact Metal Fingers (Silver grid) -->
+  <rect x="220" y="195" width="20" height="15" fill="#e2e8f0" stroke="#94a3b8" />
+  <rect x="360" y="195" width="20" height="15" fill="#e2e8f0" stroke="#94a3b8" />
+  <rect x="500" y="195" width="20" height="15" fill="#e2e8f0" stroke="#94a3b8" />
+  <rect x="640" y="195" width="20" height="15" fill="#e2e8f0" stroke="#94a3b8" />
+  <text x="680" y="206" font-family="sans-serif" font-size="11" fill="#cbd5e1">Front Metal Contact Grid</text>
+
+  <!-- Antireflective Coating Layer -->
+  <rect x="200" y="210" width="500" height="12" fill="#0284c7" opacity="0.8" />
+  <text x="715" y="220" font-family="sans-serif" font-size="11" fill="#38bdf8">Antireflective Coating (SiNx, ~75 nm)</text>
+
+  <!-- n-Type Emitter Layer (Silicon doped with Phosphorus) -->
+  <rect x="200" y="222" width="500" height="50" fill="url(#nTypeGrad)" stroke="#0284c7" stroke-width="1" />
+  <text x="450" y="252" font-family="'Consolas', monospace" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">n-Type Silicon Layer (Free Electrons e⁻)</text>
+
+  <!-- Depletion Region / P-N Junction -->
+  <rect x="200" y="272" width="500" height="45" fill="url(#depletionGrad)" stroke="#10b981" stroke-width="1.5" />
+  <text x="450" y="295" font-family="'Consolas', monospace" font-size="13" font-weight="bold" fill="#10b981" text-anchor="middle">DEPLETION REGION: Built-in Electric Field E ➔</text>
+  <text x="450" y="310" font-family="sans-serif" font-size="10" fill="#e2e8f0" text-anchor="middle">Space charge separates electrons (up) and holes (down)</text>
+
+  <!-- p-Type Base Layer (Silicon doped with Boron) -->
+  <rect x="200" y="317" width="500" height="110" fill="url(#pTypeGrad)" stroke="#0f766e" stroke-width="1" />
+  <text x="450" y="375" font-family="'Consolas', monospace" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">p-Type Silicon Base (Holes h⁺)</text>
+
+  <!-- Rear Metal Contact (Aluminum) -->
+  <rect x="200" y="427" width="500" height="16" fill="#94a3b8" stroke="#64748b" />
+  <text x="715" y="438" font-family="sans-serif" font-size="11" fill="#cbd5e1">Rear Full-Area Contact (Al BSF)</text>
+
+  <!-- External Electric Circuit with Load & Electron Flow -->
+  <path d="M 230 195 L 230 150 L 780 150 L 780 435 L 700 435" fill="none" stroke="#38bdf8" stroke-width="2.5" />
+  <!-- Electrical Load Symbol -->
+  <circle cx="780" cy="280" r="22" fill="#111827" stroke="#10b981" stroke-width="2" />
+  <text x="780" y="284" font-family="'Consolas', monospace" font-size="11" font-weight="bold" fill="#10b981" text-anchor="middle">LOAD</text>
+  <text x="780" y="320" font-family="'Consolas', monospace" font-size="11" fill="#38bdf8" text-anchor="middle">P_out = V * I</text>
+
+  <!-- Flow Arrows -->
+  <circle cx="500" cy="150" r="5" fill="#38bdf8" />
+  <text x="500" y="142" font-family="'Consolas', monospace" font-size="11" fill="#38bdf8" text-anchor="middle">e⁻ flow ➔</text>
+
+  <!-- Physics Formula Box -->
+  <rect x="180" y="480" width="540" height="90" rx="8" fill="#111827" stroke="#1e293b" />
+  <text x="200" y="505" font-family="'Consolas', monospace" font-size="12" font-weight="bold" fill="#38bdf8">KEY PHOTOVOLTAIC EQUATION: P_solar = G × A × η</text>
+  <text x="200" y="525" font-family="sans-serif" font-size="11" fill="#cbd5e1">• G: Solar irradiance [W/m²] (1000 W/m² Standard Test Conditions)</text>
+  <text x="200" y="542" font-family="sans-serif" font-size="11" fill="#cbd5e1">• A: Active panel surface area [m²] | η: Solar-to-electrical conversion efficiency</text>
+  <text x="200" y="559" font-family="sans-serif" font-size="11" fill="#10b981">• Silicon Bandgap: Eg ≈ 1.12 eV | Max Theoretical Shockley-Queisser Limit: ~33.7%</text>
+</svg>
